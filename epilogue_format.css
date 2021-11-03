@@ -65,6 +65,10 @@
     border-bottom: 2px solid #000000;
 }
 
+.pad-l {
+  padding-left: 15px;
+}
+
 @media screen and (max-width: 675px) {
     .ao3-label-float  {
       margin-right: 4.4642857143%;

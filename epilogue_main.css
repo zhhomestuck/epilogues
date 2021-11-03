@@ -75,6 +75,7 @@ b {font-weight:bold;}
   background-color: #ffffff;
   overflow-wrap: break-word;
   box-sizing: inherit;
+  padding-bottom: 20px;
 }
 /* PH */
 .pagehead {
