@@ -69,18 +69,6 @@
   padding-left: 15px;
 }
 
-@media screen and (max-width: 675px) {
-    .ao3-label-float  {
-      margin-right: 4.4642857143%;
-      width: 100%;
-      margin-bottom: 0px;
-    }
-    .ao3-field-float  {
-      margin-left: 15px;
-      width: 100%;
-    }
-}
-
 span.opener {
   margin-top: -2px;
   line-height: 1;
@@ -99,7 +87,7 @@ p.no-indent {
 p.Command {
   text-indent: 0px;
   margin: 15px 0px 15px 25px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Verdana, 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
 div.chat {
@@ -116,4 +104,19 @@ div.chat p {
 }
 .rose {
   color: #b536da;
+}
+
+@media screen and (max-width: 675px) {
+  .ao3-label-float  {
+    margin-right: 4.4642857143%;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .ao3-field-float  {
+    margin-left: 15px;
+    width: 100%;
+  }
+  div.chat {
+    font-size: 16px;
+  }
 }

@@ -232,13 +232,14 @@ div.log-inner span img {
   padding-top: 10px;
   font-size: 36px;
 }
-/* On screens that are 680px or less, set the smaller font sizes */
+/* On screens that are 680px or less, set the slightly bigger font sizes */
 @media screen and (max-width: 675px) {
   body, .content{
     padding: 0;
   }
   .content-inner {
     padding: 0 auto;
+    font-size: 18px;
   }
   div.log-inner {
     width: 98%;
