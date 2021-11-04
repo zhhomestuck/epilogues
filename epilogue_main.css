@@ -28,7 +28,13 @@ div, .pagebody img, table, td {
   border-spacing: 0;
   text-align: -webkit-center; text-align: center;
 }
-
+*,
+*:before,
+*:after {
+  -webkit-box-sizing:inherit;
+  -moz-box-sizing:inherit;
+  box-sizing:border-box;
+}
 b {font-weight:bold;}
 /* nav */
 .header {
