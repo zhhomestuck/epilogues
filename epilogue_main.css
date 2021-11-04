@@ -26,12 +26,10 @@ div, .pagebody img, table, td {
   margin: 0; padding: 0;
   border: none;
   border-spacing: 0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: border-box;
   text-align: -webkit-center; text-align: center;
-}
-*, *::before, *::after {
-  -webkit-box-sizing:inherit;
-  -moz-box-sizing:inherit;
-  box-sizing:border-box;
 }
 b {font-weight:bold;}
 /* nav */
