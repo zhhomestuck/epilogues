@@ -1,10 +1,9 @@
 @font-face {
   font-family: 'Homestuck-Regular';
   src: url('/assets/Homestuck-Regular.woff2');
-  unicode-range: U+0025-00FF; /* Extended ASCII */
 }
 @font-face {
-  font-family: 'Homestuck-Regular';
+  font-family: 'Cubic-11';
   src: url('/assets/Cubic-11/Cubic_11_1.013_R.woff2');
 }
 /*
@@ -87,7 +86,7 @@ b {font-weight:bold;}
 .pagehead {
   padding-top: 20px;
   font-size: 56px;
-  font-family: 'Homestuck-Regular', Courier;
+  font-family: 'Homestuck-Regular', 'Cubic-11', Courier;
   font-weight: normal;
   line-height: 1.35;
 }
