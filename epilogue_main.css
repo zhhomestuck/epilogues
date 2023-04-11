@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'Homestuck-Regular';
-  src: url('../assets/Homestuck-Regular.woff2');
+  src: url('/assets/Homestuck-Regular.woff2');
+  unicode-range: U+0025-00FF; /* Extended ASCII */
+}
+@font-face {
+  font-family: 'Homestuck-Regular';
+  src: url('/assets/Cubic-11/Cubic_11_1.013_R.woff2');
 }
 /*
 .wf-loading .page {
