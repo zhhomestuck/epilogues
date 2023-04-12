@@ -1,23 +1,30 @@
 @font-face {
+  font-family:"adobe-garamond-pro";
+  src:url("https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/5cace6/00000000000000003b9b00c2/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+  
+@font-face {
+  font-family:"adobe-garamond-pro";
+  src:url("https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/2011b6/00000000000000003b9b00c1/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+  font-family: 'source-han-serif-tc';
+  src: url('/assets/source-han-serif/SourceHanSerifTC-VF.otf.woff2');
+}
+
+@font-face {
   font-family: 'Homestuck-Regular';
   src: url('/assets/Homestuck-Regular.woff2');
 }
+
 @font-face {
   font-family: 'Cubic-11';
   src: url('/assets/Cubic-11/Cubic_11_1.013_R.woff2');
 }
-/*
-.wf-loading .page {
-  display: none;
-}
-.wf-loading #contribute
-{
-  padding-top: 10px;
-}
-.wf-loading .content-inner::before
-{
-  content: "loading";
-}*/
+
 
 body {
   font-family: Verdana, Arial, 'Microsoft JhengHei', 'Microsoft YaHei';
