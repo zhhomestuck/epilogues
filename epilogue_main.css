@@ -18,7 +18,7 @@
 @font-face {
   font-family: 'Cubic-11';
   src: url('/assets/Cubic-11/Cubic_11_1.013_R.woff2');
-  font-display:auto;font-style:normal;font-weight:700; /* set normal as bold */
+  font-display:auto;font-style:normal;font-weight:400;
 }
 
 
