@@ -13,13 +13,13 @@
 @font-face {
   font-family: 'Noto-Serif-TC';
   src: url('/assets/Noto-Serif-TC/NotoSerifTC-Regular.otf') format("opentype");
-  font-display:auto;font-style:normal;
+  font-display:auto;font-style:normal;font-weight:400;
 }
 
 @font-face {
   font-family: 'Noto-Serif-TC';
   src: url('/assets/Noto-Serif-TC/NotoSerifTC-Bold.otf') format("opentype");
-  font-display:auto;font-style:bold;
+  font-display:auto;font-style:bold;font-weight:700;
 }
 
 @font-face {
