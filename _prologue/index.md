@@ -1,40 +1,12 @@
-<!DOCTYPE html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="真實性存疑的故事">
-    <title>The Homestuck Epilogues 繁中翻譯</title>
-    <!-- imports -->
-    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
-    <link rel="preload" href="/assets/Noto-Serif-TC/NotoSerifTC-Regular.otf" as="font" type="font/otf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://use.typekit.net/sfm5dpn.css" />
-    <link rel="stylesheet" href="/epilogues/epilogue_main.css" />
-    <link rel="stylesheet" href="/epilogues/epilogue_format.css" />
-  </head>
-  <body>
-    <div class='header'>
-      <span class="mspanav">
-        <a href="/">Homestuck繁體中文翻譯</a>
-        <img src="/images/candycorn.gif" />
-        <a href="http://zhhomestuck.blogspot.com" style="color: #29ff4a;">Blogger站</a> |
-        <a href="http://www.homestuck.com/" style="color: #29ff4a;">官方首頁</a>
-        <img src="/images/candycorn.gif" />
-        <a href="/whatishomestuck" style="color:#39d5f6;">Homestuck是什麼</a>
-        <img src="/images/candycorn.gif" />
-        <a href="/p/page_list" style="color: #f7f72a;">頁面清單</a>
-        <img src="/images/candycorn.gif" />
-        <a href="/translators" style="color: #ffb529;">翻譯貢獻人員</a> |
-        <a href="/other_projects" style="color: #ffb529;">相關連結</a>
-      </span>
-    </div>
-    <div class="content epilogue-content">
-      <div class="content-inner">
-        <div class="page">
-          <div class="ao3-header"></div>
+---
+layout: post
+---
+
+<div class="ao3-header"></div>
 <div class="pagehead ao3-title">
   <span>The Homestuck Epilogues</span><br />
   <span style="font-size: 33px;">(Homestuck 後記集)</span><br />
-  <span style="font-size: 20px;">Andrew Hussie, Cephied_Variable, ctset</span><br />
+  <span style="font-size: 20px;">Andrew Hussie, Cephied_Variable, ctset</span><br/>
   <span style="font-size: 13px;">Additional Contributions by Lalo Hunt and Aysha U. Farah</span>
 </div>
 <div class="pagebody ao3-wrapper" style="margin-bottom: 15px;">            
@@ -141,23 +113,3 @@
   </div>
 </div>
 <div style="height: 20px;"></div>
-
-          
-          
-        </div>
-        <div id='contribute' style='font: 11px Arial;'>
-          <a href='https://www.homestuck.com/'>Homestuck</a>的<a href="/copyright.html">
-            著作權
-          </a>屬於Andrew Hussie&#12290;
-          這是由讀者所製作的非官方非營利目的翻譯版本&#12290;
-          網站由<a href='https://github.com/zhhomestuck'>Github</a>技術提供
-        </div>
-      </div>
-    </div>
-    <div class="footer-bannerframe">
-      <div>
-        HOMESTUCK EPILOGUES<br />TRADITIONAL CHINESE TRANSLATION
-      </div>
-    </div>
-  </body>
-</html>

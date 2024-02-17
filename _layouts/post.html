@@ -30,20 +30,18 @@
     <div class="content epilogue-content">
       <div class="content-inner">
         <div class="page">
-          <div class="pagehead">
-  <span class="pagehead-translation">序</span><br />
-</div>
-<div class="pagebody">
-  1: John在二十三歲生日又夢到動漫風格的惡夢，醒來，接到生病的Rose的電話。他去找Rose。<br />
-  2: Rose看見異象。John需要回去打敗Lord English。她向John解釋Canon(正典世界觀)的三個支柱，並給他指示。<br />
-  3: John找Roxy和Calliope野餐。Roxy說朋友們愈來愈疏遠了。Calliope為John提供了兩種食物選擇。<br />
-  <div style="padding: 20px 0; margin: 0 15%; font-size: 1.5em;">
-      <a href="./meat.html" style="float: left;">肉</a> <a href="./candy.html" style="float: right;">糖</a><br />
-</div>
-</div>
-
-          
-          
+          {{ content }}
+          {% if page.url contains "index" or page.url contains "summary" %}
+          {% else %}
+            <div class="pagefoot">
+              <div class="pagefooter-footer">
+                <a href="/epilogues/prologue">回目錄</a>
+                {% if page.previous.url %} 
+                  | <a id="older-page-link" class="blog-pager-older-link" href="..{{ page.previous.url }}">上一頁</a>
+                {% endif %}
+              </div>
+            </div>
+          {% endif %}
         </div>
         <div id='contribute' style='font: 11px Arial;'>
           <a href='https://www.homestuck.com/'>Homestuck</a>的<a href="/copyright.html">
